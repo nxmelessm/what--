@@ -1,3 +1,39 @@
-#first {
-    margin: 20px 50px 20px 50px auto;
+.navbar {
+    background-color: rgb(12, 12, 12)!important;
 }
+
+.list-group-item.active {
+    background-color: rgb(44, 42, 42);
+    border-color: rgb(44, 42, 42);
+}
+
+.navbar-light .navbar-brand {
+    color: #f31026!important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #f31026;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #f31026;
+}
+
+.card {
+background-color:#1b1818;
+}
+
+body {
+    color: #f31026;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #1b1818;
+    border-color: white;
+}
+
